@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.navbar{
+  background-color: lightblue;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.hero{
+  background: url('http://topbloc.com/wp-content/uploads/2018/06/Hero-Shapes.png'), linear-gradient(315deg, #5CC5C5 0%, #004A87 100%);
+  background-size:cover
+}
