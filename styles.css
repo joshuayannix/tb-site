@@ -1,11 +1,11 @@
 * {
   box-sizing: border-box;
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.navbar{
-  background-color: lightblue;
-}
+
 
 .navbar-links li {
   list-style: none;
@@ -13,5 +13,30 @@
 
 .hero{
   background: url('http://topbloc.com/wp-content/uploads/2018/06/Hero-Shapes.png'), linear-gradient(315deg, #5CC5C5 0%, #004A87 100%);
-  background-size:cover
+  background-size:cover;
+  
+}
+
+.navbar {
+  display: flex;
+}
+
+.tb-logo{
+  height: 45px;
+  width: 167.2px;
+}
+.navbar-links{
+  display: flex;
+}
+
+.hero-container{
+  display: flex;
+}
+
+.mac{
+  width: 500px;
+}
+
+.experience{
+  background: url('http://topbloc.com/wp-content/uploads/2018/06/Section-1-Shapes.png'), #ffffff;background-size:cover;background-position:center center;background-repeat:no-repeat
 }
