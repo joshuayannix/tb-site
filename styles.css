@@ -6,37 +6,66 @@
 }
 
 
-
-.navbar-links li {
-  list-style: none;
-}
-
 .hero{
   background: url('http://topbloc.com/wp-content/uploads/2018/06/Hero-Shapes.png'), linear-gradient(315deg, #5CC5C5 0%, #004A87 100%);
   background-size:cover;
-  
+  padding: 40px 100px
 }
 
 .navbar {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .tb-logo{
   height: 45px;
   width: 167.2px;
 }
+
 .navbar-links{
   display: flex;
+  border: 2px solid red;
+  width: 1000px;
+  justify-content: space-between;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: white;
 }
 
 .hero-container{
   display: flex;
+  justify-content: space-between;
+  padding: 200px 100px;
+  border: 2px solid red;
 }
+
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-headline {
+  color: white;
+}
+
+.hero-subtitle {
+  color: white;
+}
+
 
 .mac{
   width: 500px;
 }
 
+/* experience */
 .experience{
   background: url('http://topbloc.com/wp-content/uploads/2018/06/Section-1-Shapes.png'), #ffffff;background-size:cover;background-position:center center;background-repeat:no-repeat
 }
